@@ -1,1 +1,2 @@
 worker : npm start
+worker2 : npm i -g pm2 && pm2 start index.js && pm2 save
