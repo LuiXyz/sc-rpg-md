@@ -4,7 +4,7 @@ if (!text) throw `Masukkan query!`
               conn.send3Button(m.chat, awikwok, wm, `Simp`, `.simp ${text}`, `Sherk`, `.sherk ${text}`, `Nenen`, `.nenen ${text}`, fdocs)
 }
 handler.help = ['wangy <pasangan>']
-handler.tags = ['stres']
+handler.tags = ['fitnah']
 handler.command = /^wangy/i
 handler.owner = false
 handler.mods = false
