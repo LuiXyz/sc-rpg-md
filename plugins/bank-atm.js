@@ -12,8 +12,8 @@ let handler = async (m, { conn, usedPrefix, text }) => {
         title: 'By AhmdLui 🥶🥶️',
         rows: [
           { title: 'Profile', rowId: `${usedPrefix}profile` },
-          { title: 'Narik', rowId: `${usedPrefix}narik` },
-          { title: 'Nabung', rowId: `${usedPrefix}nabung` },
+          { title: 'Ambil Semua Uang Yg di Bank', rowId: `${usedPrefix}narik ${atm}` },
+          { title: 'Tabung Semua Uang Di Bank', rowId: `${usedPrefix}nabung ${money}` },
                     
         ]
 }
